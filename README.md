@@ -3,11 +3,13 @@
 This project implements a multi-agent data processing pipeline using Python, Flask, and LangChain (LangGraph). The system consists of three specialized agents—`data_filtering_agent`, `data_analysis_agent`, and `data_vis_agent`—which collaboratively process user queries to filter data, analyze it, and generate visualizations using `matplotlib`.
 
 ## Project Structure
+```
 .
 ├── app.py               # Flask application entry point
 ├── my_agents.py            # LangChain agents for filtering, analyzing, and visualizing data
 ├── multi-agent-collaboration.ipynb    # sourced from the official LangGraph repository
 └── README.md            # Project documentation
+```
 The file my_agents.ipynb contains the implementation of this project, while multi-agent-collaboration.ipynb serves as a reference, sourced from the official LangGraph repository.
 
 ## Features
